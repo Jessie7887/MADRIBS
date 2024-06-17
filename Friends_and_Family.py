@@ -4,6 +4,9 @@ import GetterPOS
 import time
 
 
+def bye():
+    print("\nThanks for playing! :D")
+
 def prompt1():
     # I have a {noun} named {Proper Noun}. {Pronoun} likes to eat {noun s/p},
     # but not on {Day of The Week}.
@@ -22,6 +25,7 @@ def prompt1():
     time.sleep(3)
     p1Ending = f"I have a {a} named {b}. {c} like(s) to eat {d}(s), but not on {day}s."
     print(p1Ending)
+    bye()
     exit(0)
 
 
@@ -38,8 +42,9 @@ def prompt2():
 
     print("Well Done! Ready to read your story?")
     time.sleep(3)
-    p2Ending = f"{a} taste(s) good especially when paired with {meat}. {b} should {c} them sometime if {b} ever feel {d}."
+    p2Ending = f"{a.title()} taste(s) good especially when paired with {meat}. {b} should {c} them sometime if {b} ever feel {d}."
     print(p2Ending)
+    bye()
     exit(0)
 
 
@@ -63,6 +68,7 @@ def prompt3():
                f"Isn't it {e} that in the whole wide *{f} there's only a select few that make your {organ} {g}" \
                f" with joy?"
     print(p3Ending)
+    bye()
     exit(0)
 
 

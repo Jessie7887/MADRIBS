@@ -5,7 +5,7 @@ import time
 # describes (with examples) the part of speech in the english language
 # noun, verb, pronoun, properNoun, adjective, adverb, preposition, conjunction
 def learn():
-    print("\nHere You Are. Read Up :)\n")
+    print("\nHere You Are. Read Up :)\nFeel free to use the examples too ;)\n")
     time.sleep(2)
     print("Noun - person, place, or thing.")
     print("Example: car, bus, egg\n")
@@ -24,6 +24,12 @@ def learn():
 
     print("Adverb - modifies or qualifies an adjective, verb, or noun; expresses a relational connection of time, place, degree, etc")
     print("Example: brightly, quietly, sweetly\n")
+
+    print("Preposition - usually proceeds a noun, describes a position or location of something or someone")
+    print("Example: over, under, between")
+
+    print("Conjuction - used to connect sentences/clauses")
+    print("Example: and, but, or, for, yet\n")
     time.sleep(4)
     alldone = input("Press X when you are done reading & ready to play.  ")
     if alldone == "X":

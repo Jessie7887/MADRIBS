@@ -36,22 +36,19 @@ def gotime():
             play()
 
 def play():
-
     print("Before we begin, would you like to view the English Parts Of Speech?")
     learn = input("Y/N ")
-    if learn == "Y":
-        PartsOfSpeech.learn()
-    elif learn == "N":
-        print("Alright then.\n")
-        start()
-    else:
-        print("bruh")
-
+    while True:
+        if learn == "Y":
+            PartsOfSpeech.learn()
+        elif learn == "N":
+            print("Alright then.\n")
+            start()
+        else:
+            print("bruh")
 
 
 def start():
     # launches game (by means of choose>category.prompt>game)
     Choose.choice()
-
-
 
