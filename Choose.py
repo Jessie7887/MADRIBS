@@ -7,19 +7,19 @@ import Computers
 
 # category choices <-- Start here
 def choice():
-    pick = input("Choose a category...\n* F&F\n* Comp\n* NO\n")
+    pick = input("Choose a category...\n* F&F\n* Comp\n>> ")
     if pick == "F&F":
         choiceFF()
     if pick == "Comp":
         choiceComp()
-    if pick == "NO":
-        choiceNO()
+    # if pick == "NO":
+    #     choiceNO()
 
 
 
 # prompt choices from F&F
 def choiceFF():
-    select = input("Choose a prompt: \n* Prompt 1\n* Prompt 2\n* Prompt 3\n")
+    select = input("Choose a prompt: \n* Prompt 1\n* Prompt 2\n* Prompt 3\n>> ")
     # 1 or 2
     if select == "Prompt 1":
         # Choose Prompt 1 from Category: Friends & Family
@@ -45,6 +45,8 @@ def choiceComp():
         # Choose Prompt 3 from Category: Friends & Family
         Computers.prompt3()
 
-def choiceNO():
-    pass
+
+## we'll add more :)
+# def choiceNO():
+#     pass
 

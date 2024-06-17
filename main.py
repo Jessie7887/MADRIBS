@@ -1,12 +1,8 @@
 import game
 
-
-def welcome():
-    print("Welcome! Let's get started!")
-
-
 if __name__ == '__main__':
-    welcome()
+    print("\nWelcome! Let's get started!")
+    game.rules()
     game.gotime()
     game.start()
 

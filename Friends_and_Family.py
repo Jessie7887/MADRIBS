@@ -20,7 +20,7 @@ def prompt1():
     # Funny reading time
     print("Well Done! Ready to read your story?")
     time.sleep(3)
-    p1Ending = f"I have a {a} named {b}. {c} likes to eat {d}(s), but not on {day}s."
+    p1Ending = f"I have a {a} named {b}. {c} like(s) to eat {d}(s), but not on {day}s."
     print(p1Ending)
     exit(0)
 

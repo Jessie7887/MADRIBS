@@ -7,13 +7,14 @@ import time
 # Order: Welcome(in main), LEarn teh parts of speech(POS), choose a category
 
 def rules():
-    print("Rules & Regs.\nThis is mAd libs, or I as like to call it, mAD RiBS.\n")
+    print("\nThis is mAd libs, or I as like to call it, mAD RiBS.\n")
     time.sleep(2)
     print("Come prepared with grammar knowledge (or not) & create a funny story")
     print("Follow the on-screen prompts to type in the correct parts of speech or specific type of word (example: day "
           "of the week, dog breed, etc) to create the story.\n")
-    print("You will get the choose your story category to help you come up with words.\n")
-    print("Available today we have: Friends & Family, Computers, and NO\n")
+    time.sleep(2)
+    print("You will get the choose your story category to help you come up with words.")
+    print("Available today we have these Categories: Friends & Family, Computers.\n")
     time.sleep(5)
     print("Within those categories are the prompts, which again is your choice.\n")
     print("There are 2-3 story prompts in each category.\n")
@@ -50,7 +51,6 @@ def play():
 
 def start():
     # launches game (by means of choose>category.prompt>game)
-    rules()
     Choose.choice()
 
 
