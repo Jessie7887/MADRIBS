@@ -65,16 +65,4 @@ def prompt3():
     print(p3Ending)
     exit(0)
 
-# w)nmo = they
-# me/mea/mea nkasa kasa = i/me/myself
-# barima / )no = he / they
-# obaa / )no= she / they
-# w)/w)nkwa = you/yourself(only you)
-# w)n mo / w)n nkasa / )no wa = themselves/them
-# 3no / 3no a = it/itself
-# w3n = we
-
-
-
-
 
